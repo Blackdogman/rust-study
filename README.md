@@ -4,10 +4,10 @@
 ## 如何编译与执行rust文件(*.rs)
 1. 编译二进制
 ```shell
-rustc hello_world.rs
+$ rustc hello_world.rs
 ```
 2. 执行遍以后的二进制
 ```shell
-./hello_world # 类linux环境
-./hello_world.exe # windows环境
+$ ./hello_world # 类linux环境
+$ ./hello_world.exe # windows环境
 ```
