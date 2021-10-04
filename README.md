@@ -11,3 +11,13 @@ $ rustc hello_world.rs
 $ ./hello_world # 类linux环境
 $ ./hello_world.exe # windows环境
 ```
+## cargo引用依赖
+1. 编辑cargo.toml在[dependencies]标签下添加引用包的名称与版本
+```toml
+[dependencies]
+
+rand = "0.8.3"
+```
+
+### 疑问记录
+1. catgo.toml = package.xml?
